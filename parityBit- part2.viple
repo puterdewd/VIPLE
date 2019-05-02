@@ -1,0 +1,1160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="/ StateFileSchema.xsd" VIPLE_Type="1">
+  <Version>3.8.5.4</Version>
+  <ProgrammingPanel Name="Main">
+    <Variables />
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>0</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>2</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>0</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>54</Left>
+        <Top>143.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">26</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>13</ActivityNameInt>
+      <ActivityID>1</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>3</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>1</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>52</Left>
+        <Top>260.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">27</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>2</ActivityID>
+      <PreviousActivities>
+        <ActivityID>0</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>4</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>0</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>2</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>235</Left>
+        <Top>146.08</Top>
+      </Location>
+      <Values>
+        <Value>0</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>3</ActivityID>
+      <PreviousActivities>
+        <ActivityID>1</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>4</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>1</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>3</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>241</Left>
+        <Top>263.08</Top>
+      </Location>
+      <Values>
+        <Value>1</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>5</ActivityNameInt>
+      <ActivityID>4</ActivityID>
+      <PreviousActivities>
+        <ActivityID>2</ActivityID>
+        <ActivityID>3</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>10</ActivityID>
+        <ActivityID>5</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>2</GraphEdgeID>
+        <GraphEdgeID>3</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>4</GraphEdgeID>
+        <GraphEdgeID>5</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>385</Left>
+        <Top>219.08</Top>
+      </Location>
+      <Values>
+        <Value>System.Int32</Value>
+      </Values>
+    </Activity>
+    <Activity Name="Bit Counter" IsFlipped="false">
+      <ActivityNameInt>0</ActivityNameInt>
+      <ActivityID>5</ActivityID>
+      <PreviousActivities>
+        <ActivityID>4</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>12</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>5</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>6</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>480</Left>
+        <Top>311.08</Top>
+      </Location>
+      <Values />
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>9</ActivityID>
+      <PreviousActivities>
+        <ActivityID>24</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>7</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>246</Left>
+        <Top>19.08</Top>
+      </Location>
+      <Values>
+        <Value>bitValue</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>10</ActivityID>
+      <PreviousActivities>
+        <ActivityID>4</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>11</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>4</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>8</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>478</Left>
+        <Top>118.08</Top>
+      </Location>
+      <Values>
+        <Value>value + state.bitValue</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>11</ActivityID>
+      <PreviousActivities>
+        <ActivityID>10</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>8</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>666</Left>
+        <Top>119.08</Top>
+      </Location>
+      <Values>
+        <Value>bitValue</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>6</ActivityNameInt>
+      <ActivityID>12</ActivityID>
+      <PreviousActivities>
+        <ActivityID>5</ActivityID>
+      </PreviousActivities>
+      <NextActivities Index="0">
+        <ActivityID>13</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>6</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines Index="0">
+        <GraphEdgeID>9</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>640</Left>
+        <Top>307.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">value == state.bitStringLimit</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>13</ActivityID>
+      <PreviousActivities>
+        <ActivityID>12</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>14</ActivityID>
+        <ActivityID>18</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>9</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>10</GraphEdgeID>
+        <GraphEdgeID>11</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>867</Left>
+        <Top>305.08</Top>
+      </Location>
+      <Values>
+        <Value>state.bitValue</Value>
+      </Values>
+    </Activity>
+    <Activity Name="generateParity" IsFlipped="false">
+      <ActivityNameInt>0</ActivityNameInt>
+      <ActivityID>14</ActivityID>
+      <PreviousActivities>
+        <ActivityID>13</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>18</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>10</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>12</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1057</Left>
+        <Top>305.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">bitString</Value>
+        <Value Index="1">value</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>4</ActivityNameInt>
+      <ActivityID>18</ActivityID>
+      <PreviousActivities Index="0">
+        <ActivityID>14</ActivityID>
+      </PreviousActivities>
+      <PreviousActivities Index="1">
+        <ActivityID>13</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>19</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines Index="0">
+        <GraphEdgeID>12</GraphEdgeID>
+      </IncomingLines>
+      <IncomingLines Index="1">
+        <GraphEdgeID>11</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>13</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>935</Left>
+        <Top>62.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">parityBit</Value>
+        <Value Index="1">bitString</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>19</ActivityID>
+      <PreviousActivities>
+        <ActivityID>18</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>21</ActivityID>
+        <ActivityID>45</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>13</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>14</GraphEdgeID>
+        <GraphEdgeID>36</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1095</Left>
+        <Top>78.08</Top>
+      </Location>
+      <Values>
+        <Value>parityBit + bitString</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>11</ActivityNameInt>
+      <ActivityID>20</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1291</Left>
+        <Top>197.08</Top>
+      </Location>
+      <Values>
+        <Value>bit string is read
+right to left</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>21</ActivityID>
+      <PreviousActivities>
+        <ActivityID>19</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>14</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1289</Left>
+        <Top>78.08</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>22</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>23</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>15</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>56</Left>
+        <Top>394.08</Top>
+      </Location>
+      <Values>
+        <Value>7</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>23</ActivityID>
+      <PreviousActivities>
+        <ActivityID>22</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>15</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>229</Left>
+        <Top>393.08</Top>
+      </Location>
+      <Values>
+        <Value>bitStringLimit</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>24</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>9</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>7</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>73</Left>
+        <Top>18.08</Top>
+      </Location>
+      <Values>
+        <Value>""</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>43</ActivityNameInt>
+      <ActivityID>44</ActivityID>
+      <PreviousActivities>
+        <ActivityID>45</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>46</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>37</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>38</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1174.60666666667</Left>
+        <Top>451.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">http://neptune.fulton.ad.asu.edu/WSRepository/Services/EncryptionRest/Service.svc/Encrypt?text={0}</Value>
+        <Value Index="1">Object</Value>
+        <Value Index="2">encryptText</Value>
+        <Value Index="3">System.String</Value>
+        <Value Index="4">state.result</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>45</ActivityID>
+      <PreviousActivities>
+        <ActivityID>19</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>44</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>36</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>37</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1016.60666666667</Left>
+        <Top>451.08</Top>
+      </Location>
+      <Values>
+        <Value>result</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>46</ActivityID>
+      <PreviousActivities>
+        <ActivityID>44</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>38</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1333.60666666667</Left>
+        <Top>449.08</Top>
+      </Location>
+      <Values>
+        <Value />
+      </Values>
+    </Activity>
+  </ProgrammingPanel>
+  <ProgrammingPanel Name="Bit Counter">
+    <Variables />
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-1</ActivityNameInt>
+      <ActivityID>6</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>25</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>16</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-2</ActivityNameInt>
+      <ActivityID>7</ActivityID>
+      <PreviousActivities>
+        <ActivityID>26</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>17</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-3</ActivityNameInt>
+      <ActivityID>8</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>25</ActivityID>
+      <PreviousActivities>
+        <ActivityID>6</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>26</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>16</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>18</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>106.881965637207</Left>
+        <Top>404.08</Top>
+      </Location>
+      <Values>
+        <Value>state.bitCounter + 1</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>26</ActivityID>
+      <PreviousActivities>
+        <ActivityID>25</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>7</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>18</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>17</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>301.881965637207</Left>
+        <Top>405.08</Top>
+      </Location>
+      <Values>
+        <Value>bitCounter</Value>
+      </Values>
+    </Activity>
+  </ProgrammingPanel>
+  <ProgrammingPanel Name="generateParity">
+    <Variables>
+      <Variable>
+        <VariableName>bitString</VariableName>
+        <VariableType>System.String</VariableType>
+      </Variable>
+    </Variables>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-1</ActivityNameInt>
+      <ActivityID>15</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>41</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>19</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-2</ActivityNameInt>
+      <ActivityID>16</ActivityID>
+      <PreviousActivities>
+        <ActivityID>42</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>20</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>-3</ActivityNameInt>
+      <ActivityID>17</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>0</Left>
+        <Top>0</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>27</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>110.881965637207</Left>
+        <Top>123.08</Top>
+      </Location>
+      <Values>
+        <Value>count</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>28</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>110.881965637207</Left>
+        <Top>37.08</Top>
+      </Location>
+      <Values>
+        <Value>index</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>29</ActivityID>
+      <PreviousActivities>
+        <ActivityID>41</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>30</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>21</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>22</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>422.881965637207</Left>
+        <Top>254.08</Top>
+      </Location>
+      <Values>
+        <Value>strLen</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>8</ActivityNameInt>
+      <ActivityID>30</ActivityID>
+      <PreviousActivities>
+        <ActivityID>29</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>31</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>22</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>23</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>604.881965637207</Left>
+        <Top>255.08</Top>
+      </Location>
+      <Values>
+        <Value>state.index &lt; state.strLen</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="true">
+      <ActivityNameInt>6</ActivityNameInt>
+      <ActivityID>31</ActivityID>
+      <PreviousActivities>
+        <ActivityID>30</ActivityID>
+      </PreviousActivities>
+      <NextActivities Index="0">
+        <ActivityID>32</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities>
+        <ActivityID>40</ActivityID>
+      </AlternateNextActivities>
+      <IncomingLines>
+        <GraphEdgeID>23</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines Index="0">
+        <GraphEdgeID>24</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines>
+        <GraphEdgeID>25</GraphEdgeID>
+      </AlternateOutgoingLines>
+      <Location>
+        <Left>874.881965637207</Left>
+        <Top>358.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">instance.bitString.IndexOf("1",state.index, 1) &gt;= 0 </Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="true">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>32</ActivityID>
+      <PreviousActivities>
+        <ActivityID>31</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>33</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>24</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>26</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>727.881965637207</Left>
+        <Top>357.08</Top>
+      </Location>
+      <Values>
+        <Value>state.count + 1</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="true">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>33</ActivityID>
+      <PreviousActivities>
+        <ActivityID>32</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>34</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>26</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>27</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>576.881965637207</Left>
+        <Top>357.08</Top>
+      </Location>
+      <Values>
+        <Value>count</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="true">
+      <ActivityNameInt>6</ActivityNameInt>
+      <ActivityID>34</ActivityID>
+      <PreviousActivities>
+        <ActivityID>33</ActivityID>
+      </PreviousActivities>
+      <NextActivities Index="0">
+        <ActivityID>35</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities>
+        <ActivityID>40</ActivityID>
+      </AlternateNextActivities>
+      <IncomingLines>
+        <GraphEdgeID>27</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines Index="0">
+        <GraphEdgeID>28</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines>
+        <GraphEdgeID>29</GraphEdgeID>
+      </AlternateOutgoingLines>
+      <Location>
+        <Left>412.881965637207</Left>
+        <Top>355.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">state.count == 2</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="true">
+      <ActivityNameInt>3</ActivityNameInt>
+      <ActivityID>35</ActivityID>
+      <PreviousActivities>
+        <ActivityID>34</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>36</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>28</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>30</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>260.881965637207</Left>
+        <Top>359.08</Top>
+      </Location>
+      <Values>
+        <Value>0</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="true">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>36</ActivityID>
+      <PreviousActivities>
+        <ActivityID>35</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>40</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>30</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>31</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>119.881965637207</Left>
+        <Top>360.08</Top>
+      </Location>
+      <Values>
+        <Value>count</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>10</ActivityNameInt>
+      <ActivityID>37</ActivityID>
+      <PreviousActivities>
+        <ActivityID>39</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>42</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>32</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>33</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>949.881965637207</Left>
+        <Top>511.08</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>38</ActivityID>
+      <PreviousActivities>
+        <ActivityID>40</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>39</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>34</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>35</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>594.881965637207</Left>
+        <Top>510.08</Top>
+      </Location>
+      <Values>
+        <Value>state.index +1 </Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>1</ActivityNameInt>
+      <ActivityID>39</ActivityID>
+      <PreviousActivities>
+        <ActivityID>38</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>37</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>35</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>32</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>788.881965637207</Left>
+        <Top>509.08</Top>
+      </Location>
+      <Values>
+        <Value>index</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>5</ActivityNameInt>
+      <ActivityID>40</ActivityID>
+      <PreviousActivities>
+        <ActivityID>34</ActivityID>
+        <ActivityID>36</ActivityID>
+        <ActivityID>31</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>38</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>29</GraphEdgeID>
+        <GraphEdgeID>31</GraphEdgeID>
+        <GraphEdgeID>25</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>34</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>507.881965637207</Left>
+        <Top>508.08</Top>
+      </Location>
+      <Values />
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>41</ActivityID>
+      <PreviousActivities>
+        <ActivityID>15</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>29</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>19</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>21</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>212.881965637207</Left>
+        <Top>261.08</Top>
+      </Location>
+      <Values>
+        <Value>instance.bitString.Length</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>2</ActivityNameInt>
+      <ActivityID>42</ActivityID>
+      <PreviousActivities>
+        <ActivityID>37</ActivityID>
+      </PreviousActivities>
+      <NextActivities>
+        <ActivityID>16</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>33</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines>
+        <GraphEdgeID>20</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1104.88196563721</Left>
+        <Top>507.08</Top>
+      </Location>
+      <Values>
+        <Value>Convert.ToString(state.count)</Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>11</ActivityNameInt>
+      <ActivityID>43</ActivityID>
+      <PreviousActivities />
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>1070.88196563721</Left>
+        <Top>627.08</Top>
+      </Location>
+      <Values>
+        <Value> parity is 1 if the number of 1s entered is an odd number</Value>
+      </Values>
+    </Activity>
+  </ProgrammingPanel>
+  <Variables>
+    <Variable>
+      <VariableName>bitCounter</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>bitValue</VariableName>
+      <VariableType>System.String</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>bitSum</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>count</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>bitStringLimit</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>strLen</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>index</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+    <Variable>
+      <VariableName>result</VariableName>
+      <VariableType>System.String</VariableType>
+    </Variable>
+  </Variables>
+  <UsedCustomActivityNames>
+    <CustomActivityName>Bit Counter</CustomActivityName>
+    <CustomActivityName>generateParity</CustomActivityName>
+  </UsedCustomActivityNames>
+</Program>

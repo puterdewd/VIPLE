@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Program xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="/ StateFileSchema.xsd" VIPLE_Type="1">
+  <Version>3.8.5.4</Version>
+  <ProgrammingPanel Name="Main">
+    <Variables />
+    <Activity IsFlipped="false">
+      <ActivityNameInt>28</ActivityNameInt>
+      <ActivityID>99</ActivityID>
+      <PreviousActivities>
+        <ActivityID>104</ActivityID>
+      </PreviousActivities>
+      <NextActivities />
+      <AlternateNextActivities />
+      <IncomingLines>
+        <GraphEdgeID>94</GraphEdgeID>
+      </IncomingLines>
+      <OutgoingLines />
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>518</Left>
+        <Top>162.08</Top>
+      </Location>
+      <Values>
+        <Value></Value>
+      </Values>
+    </Activity>
+    <Activity IsFlipped="false">
+      <ActivityNameInt>44</ActivityNameInt>
+      <ActivityID>104</ActivityID>
+      <PreviousActivities />
+      <NextActivities>
+        <ActivityID>99</ActivityID>
+      </NextActivities>
+      <AlternateNextActivities />
+      <IncomingLines />
+      <OutgoingLines>
+        <GraphEdgeID>94</GraphEdgeID>
+      </OutgoingLines>
+      <AlternateOutgoingLines />
+      <Location>
+        <Left>195</Left>
+        <Top>169.08</Top>
+      </Location>
+      <Values>
+        <Value Index="0">SevenBitRandomGenerator</Value>
+        <Value Index="1">using System;
+
+[Serializable]
+public class SevenBitRandomGenerator : CodeUtilities.CodeBase
+{
+    public SevenBitRandomGenerator()
+    {
+        
+    }
+
+    // To execute your code, you must override the Execute method.
+    public override void Execute()
+    {
+        // Obtain the value of the input to this activity.
+        // The type of this value will depend on what input you pass to this activity.
+        String bitString = "";
+        Random rand = new Random();
+        for (int i=0; i&lt;7; i++) {
+           bitString = bitString + rand.Next(2).ToString();
+		}
+        Output = bitString;
+    }
+}</Value>
+        <Value Index="2">Microsoft.CSharp.dll</Value>
+        <Value Index="3">mscorlib.dll</Value>
+        <Value Index="4">SMDiagnostics.dll</Value>
+        <Value Index="5">System.Configuration.dll</Value>
+        <Value Index="6">System.Core.dll</Value>
+        <Value Index="7">System.dll</Value>
+        <Value Index="8">System.Drawing.dll</Value>
+        <Value Index="9">System.Dynamic.dll</Value>
+        <Value Index="10">System.IdentityModel.dll</Value>
+        <Value Index="11">System.Net.Http.dll</Value>
+        <Value Index="12">System.Runtime.dll</Value>
+        <Value Index="13">System.Runtime.Serialization.dll</Value>
+        <Value Index="14">System.ServiceModel.dll</Value>
+        <Value Index="15">System.ServiceModel.Internals.dll</Value>
+        <Value Index="16">System.Transactions.dll</Value>
+        <Value Index="17">System.Web.dll</Value>
+        <Value Index="18">System.Windows.Forms.dll</Value>
+        <Value Index="19">System.Xaml.dll</Value>
+        <Value Index="20">System.Xml.Linq.dll</Value>
+      </Values>
+    </Activity>
+  </ProgrammingPanel>
+  <Variables>
+    <Variable>
+      <VariableName>i</VariableName>
+      <VariableType>System.Int32</VariableType>
+    </Variable>
+  </Variables>
+  <UsedCustomActivityNames />
+</Program>
